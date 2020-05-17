@@ -24,23 +24,28 @@
     <docsUrl>http://mentalomega.com/index.php?page=install</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>mental-omega redalert red alert yuri mod</tags>
+    <tags>mental-omega redalert red alert yuri mod c&#38;c</tags>
     <summary>Mental Omega is a free unofficial expansion pack for Command and Conquer Red Alert 2 Yuri's Revenge.</summary>
     <description>
 
-    It started off as a balance modification created by Speeder and Mevitar and first released in 2005. After a few years, it had grown into an unofficial sequel with new campaigns for the Allies, Soviets, and Yuri. Version 3.3 marks the end of the long road and the final release in the Mental Omega series.
+It started off as a balance modification created by Speeder and Mevitar and first released in 2005. After a few years, it had grown into an unofficial sequel with new campaigns for the Allies, Soviets, and Yuri. Version 3.3 marks the end of the long road and the final release in the Mental Omega series.
 
-    The original game is needed to be able to play this MOD.
+The original game is needed to be able to play this MOD.
 
-    The files required for Mental Omega 3.3 to function are:
+The files required for Mental Omega 3.3 to function are:
 
-    - BINKW32.dll
-    - BLOWFISH.dll
-    - gamemd.exe (patched to version 1.001)
-    - ra2.mix
-    - ra2md.mix
-    - language.mix
-    - langmd.mix
+- BINKW32.dll
+- BLOWFISH.dll
+- gamemd.exe (patched to version 1.001)
+- ra2.mix
+- ra2md.mix
+- language.mix
+- langmd.mix
+
+## Installation:
+Mod is installed in: `%localappdata%\programs\mentalomega`
+
+Follow original instructions from: http://mentalomega.com/index.php?page=install
 
     </description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
