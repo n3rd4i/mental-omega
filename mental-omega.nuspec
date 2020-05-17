@@ -30,6 +30,18 @@
 
     It started off as a balance modification created by Speeder and Mevitar and first released in 2005. After a few years, it had grown into an unofficial sequel with new campaigns for the Allies, Soviets, and Yuri. Version 3.3 marks the end of the long road and the final release in the Mental Omega series.
 
+    The original game is needed to be able to play this MOD.
+
+    The files required for Mental Omega 3.3 to function are:
+
+    - BINKW32.dll
+    - BLOWFISH.dll
+    - gamemd.exe (patched to version 1.001)
+    - ra2.mix
+    - ra2md.mix
+    - language.mix
+    - langmd.mix
+
     </description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->      

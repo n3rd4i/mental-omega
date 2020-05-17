@@ -1,7 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$unzipLocation = "$(Join-Path $toolsDir MentalOmega)"
+. "$(Join-Path $toolsDir commonEnv.ps1)"
 
+$unzipLocation = $installLocation
 $url        = Get-ModdbDlUrl 'https://www.moddb.com/downloads/start/115776'
 $packageArgs = @{
   packageName   = "$env:ChocolateyPackageName-mod" # VERSION 3.3.0 (16/12/2016)
@@ -31,3 +32,10 @@ $packageArgs = @{
   checksumType  = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
+
+## StartMenu
+Install-ChocolateyShortcut -ShortcutFilePath "$(Join-Path $startMenuDir $GameName).lnk" `
+  -TargetPath $binLocation `
+  -WorkingDirectory "$installLocation"
+Install-ChocolateyShortcut -ShortcutFilePath "$(Join-Path $startMenuDir README.lnk)" `
+  -TargetPath "$(Join-Path $installLocation readmeMO.txt)"
