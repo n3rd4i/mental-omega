@@ -1,5 +1,8 @@
 ﻿## C&C Mental Omega
 
+### [Installing](http://mentalomega.com/index.php?page=install)
+1. Prepare files from Red Alert 2 Yuri's Revenge 1.001
+
 The files required for Mental Omega 3.3 to function are:
 
 - BINKW32.dll
