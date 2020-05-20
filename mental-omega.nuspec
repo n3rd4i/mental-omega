@@ -53,6 +53,7 @@ Follow original instructions from: http://mentalomega.com/index.php?page=install
 
     <dependencies>
       <dependency id="moddb.extension" version="0.1.1" />
+      <dependency id="kb2919355" />
     </dependencies>
   </metadata>
   <files>
