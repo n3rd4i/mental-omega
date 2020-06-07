@@ -33,6 +33,9 @@ $packageArgs = @{
 }
 Install-ChocolateyZipPackage @packageArgs
 
+## Change `Renderer` from Default to TS_DDRAW_2
+(Get-Content "$iniFile") -replace 'Renderer=Default', 'Renderer=TS_DDRAW_2' | Set-Content "$iniFile"
+
 ## StartMenu
 Install-ChocolateyShortcut -ShortcutFilePath "$(Join-Path $startMenuDir $GameName).lnk" `
   -TargetPath $binLocation `
